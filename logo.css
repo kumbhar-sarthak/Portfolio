@@ -1,0 +1,74 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.hand-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fig1 {
+  width: 20px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 7px;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.fig0 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 5px;
+  animation: moveUpDown 1s ease infinite;
+}
+
+.nail {
+  width: 13px;
+  height: 10px;
+  background-color: rgb(249, 215, 174);
+  border-radius: 3px;
+}
+
+.fig2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 5px;
+  animation: moveUpDown 1.4s ease infinite;
+}
+
+.fig3 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 5px;
+  animation: moveUpDown 1.8s ease infinite;
+}
+
+.fig4 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 5px;
+  animation: moveUpDown 2s ease infinite;
+}
