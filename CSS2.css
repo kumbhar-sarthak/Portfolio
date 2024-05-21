@@ -125,6 +125,12 @@
     color: #b09b39;
   }
 
+  .Working_section_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 30rem;
+  }
+
   .Title {
     font-size: 3rem;
     font-family: "Outfit", sans-serif;
@@ -138,12 +144,13 @@
   }
 
   .heading_work {
-    width: 30%;
     height: 100px;
     display: flex;
     padding-left: 1rem;
-    margin-top: 16rem;
-    padding-top: 5rem;
+  }
+
+  .Working_section_box_align{
+    width: 100%;
   }
 
   .boxes_align_container {
