@@ -83,7 +83,7 @@ const TextAnimate = () => {
     const scrollPosition = window.scrollY;
     const animatedText = document.querySelector('.about_info_align');
 
-    if (scrollPosition >= 250) {
+    if (scrollPosition >= 300) {
         animatedText.classList.add('visible');
     } else {
         animatedText.classList.remove('visible');

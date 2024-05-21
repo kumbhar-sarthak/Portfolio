@@ -114,6 +114,7 @@
   .About_section_container {
     width: 399px;
     display: block;
+    margin-top: 12rem;
   }
 
   .title_about {
@@ -141,7 +142,7 @@
     height: 100px;
     display: flex;
     padding-left: 1rem;
-    margin-top: 12rem;
+    margin-top: 16rem;
     padding-top: 5rem;
   }
 
