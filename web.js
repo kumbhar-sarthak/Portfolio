@@ -11,7 +11,7 @@ let j = document.querySelector(".title_about");
 
 function scrollanimation() {
 
-  if (window.scrollY >= 1100.0) {
+  if (window.scrollY >= 1110.0) {
     b.classList.add("expand");
   }
   console.log(window.scrollY);
@@ -52,7 +52,7 @@ const cursorAction = (e) => {
 };
 
 let buildCursor = () => {
-  if (window.scrollY >= 2460.00) {
+  if (window.scrollY >= 2000.00) {
     body.classList.add("custom_default_cursor");
     document.addEventListener("mousemove", cursorAction);
   } else {
@@ -69,7 +69,7 @@ tool.forEach((i) => {
     const x = e.clientX - position.left - position.width / 2;
     const y = e.clientY - position.top - position.height / 2;
 
-    i.style.transform = `translate(${x * 0.7}px , ${y * 0.7}px)`;
+    i.style.transform = `translate(${x * 1}px , ${y * 1}px)`;
    
   });
 

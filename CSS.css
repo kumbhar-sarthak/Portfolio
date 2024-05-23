@@ -4,6 +4,7 @@ body {
   background-color: rgb(250, 243, 210);
   height: 100%;
   user-select: none;
+  --bs-body-bg : rgb(250, 243, 210)
 }
 .Title_container {
   width: 100%;
